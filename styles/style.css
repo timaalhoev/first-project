@@ -1,0 +1,124 @@
+/* header */
+@import '/blocks/header/header.css';
+@import '/blocks/header/__logo/header__logo.css';
+@import '/blocks/header/__banner/header__banner.css';
+@import '/blocks/header/__banner/__description/banner__description.css';
+@import '/blocks/header/__banner/__image/banner__image.css';
+@import '/blocks/header/__banner/__text/banner__text.css';
+@import '/blocks/header/__square-pic/header__square-pic.css';
+/* header */
+/* description*/
+@import '/blocks/techniques/techniques.css';
+@import '/blocks/description/__container/description__container.css';
+@import '/blocks/description/__education-problems/description__education-problems.css';
+@import '/blocks/description/__link/description__link.css';
+/* description */
+/* techniques */
+@import '/blocks/techniques/techniques.css';
+@import '/blocks/techniques/__row/techniques__row.css';
+@import '/blocks/techniques/__title/techniques__title.css';
+@import '/blocks/techniques/__info/techniques__info.css';
+@import '/blocks/techniques/__ed-block/techniques__ed-block.css';
+@import '/blocks/techniques/__ed-block/__image/ed-block__image.css';
+@import '/blocks/techniques/__ed-block/__info/ed-block__info.css';
+/* techniques */
+/* video */
+@import '/blocks/video/video.css';
+@import '/blocks/video/__container/video__container.css';
+@import '/blocks/video/__title/video__title.css';
+@import '/blocks/video/__youtube/video__youtube.css';
+/* video */
+/* oakley */
+@import '/blocks/oakley/oakley.css';
+@import '/blocks/oakley/__container/oakley__container.css';
+@import '/blocks/oakley/__description/oakley__description.css';
+@import '/blocks/oakley/__link/oakley__link.css';
+/* oakley */
+/* feynman */
+@import '/blocks/feynman/feynman.css';
+@import '/blocks/feynman/__container/feynman__container.css';
+@import '/blocks/feynman/__image/feynman__image.css';
+@import '/blocks/feynman/__text/feynman__text.css';
+@import '/blocks/feynman/__title/feynman__title.css';
+/* feynman */
+/* digits */
+@import '/blocks/digits/digits.css';
+@import '/blocks/digits/__item/digits__item.css';
+@import '/blocks/digits/__numders/digits__numbers.css';
+@import '/blocks/digits/__title/digits__title.css';
+/* digits */
+/* khan */
+@import '/blocks/khan/khan.css';
+@import '/blocks/khan/__author/khan__author.css';
+@import '/blocks/khan/__author/__name/author__name.css';
+@import '/blocks/khan/__author/__pro/author__pro.css';
+@import '/blocks/khan/__block/khan__block.css';
+@import '/blocks/khan/__book/khan__book.css';
+@import '/blocks/khan/__info/khan__info.css';
+@import '/blocks/khan/__paragraph/khan__paragraph.css';
+/* khan */
+/* kaufman */
+@import '/blocks/kaufman/kaufman.css';
+@import '/blocks/kaufman/__info-block/kaufman__info-block.css';
+@import '/blocks/kaufman/__info-block/__info/info-block__info.css';
+/* kaufman */
+/* resources */
+@import '/blocks/resources/resources.css';
+@import '/blocks/resources/__container/resources__container.css';
+@import '/blocks/resources/__container/resources__container.css';
+@import '/blocks/resources/__row/resources__row.css';
+@import '/blocks/resources/__title/resources__title.css';
+/* resources */
+/* footer */
+@import '/blocks/footer/footer.css';
+@import '/blocks/footer/__container/footer__container.css';
+@import '/blocks/footer/__icon/footer__icon.css';
+@import '/blocks/footer/__logo/footer__logo.css';
+@import '/blocks/footer/__nav/footer__nav.css';
+@import '/blocks/footer/__nav/__column/nav__column.css';
+@import '/blocks/footer/__social/footer__social.css';
+/* kaufman */
+.page {
+  min-width: 1100px;
+  /* мы ещё не умеем делать мобильную версию сайта, */
+  /* поэтому выше установлена минимальная ширина страницы */
+  max-width: 1600px;
+  /* выше установили ограничение по максимальной ширине */
+  margin: 0 auto;
+  /* выше для экранов больше 1600px отцентрировали весь контент */
+  font-family: 'Inter-Regular', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  transition: opacity .2s ease-in;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+p {
+  font-size: 18px;
+  line-height: 21px;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h1 {
+  font-size: 102px;
+  color: black;
+  margin-top: 100px;
+}
+
+/* и элемента с модификатором вида ключ-значение */
+.table__cell_theme_dark {
+  width: 200px;
+  color: white;
+  margin-right: 0;
+  margin-top: 80px;
+}
+

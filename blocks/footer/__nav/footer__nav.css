@@ -1,0 +1,10 @@
+.footer__nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 180px;
+  }
+
+  .footer__nav a {
+    margin-bottom: 10px;
+  }
+  

@@ -1,0 +1,9 @@
+.techniques__ed-block {
+    width: 33.333%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 60px;
+    text-align: center;
+  }

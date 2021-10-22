@@ -1,0 +1,10 @@
+.info-block__info {
+    width: 20%;
+    padding-right: 34px;
+    box-sizing: border-box;
+    margin-top: 80px;
+  }
+  
+  .info-block__info h3 {
+    margin-bottom: 20px;
+  }

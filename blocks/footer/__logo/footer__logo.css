@@ -1,0 +1,5 @@
+.footer__logo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }

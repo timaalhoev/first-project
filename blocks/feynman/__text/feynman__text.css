@@ -1,21 +1,22 @@
 .feynman__text {
-    position: relative;
-    text-align: center;
-    margin-top: 70px;
-  }
-  
-  .feynman__text p {
-    font-size: 36px;
-    line-height: 51px;
-    text-align: center;
-  }
-  
-  .feynman__text a {
-    position: absolute;
-    right: 0;
-    top: 0;
-    font-size: 36px;
-    line-height: 51px;
-    padding-right: 48px;
-    color: #2F80ED;
-  }
+  position: relative;
+  text-align: center;
+  margin-top: 70px;
+  z-index: 1;
+}
+
+.feynman__text p {
+  font-size: 36px;
+  line-height: 51px;
+  text-align: center;
+}
+
+.feynman__text a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 36px;
+  line-height: 51px;
+  padding-right: 48px;
+  color: #2F80ED;
+}

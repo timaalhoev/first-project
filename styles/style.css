@@ -1,3 +1,4 @@
+@import '/blocks/rotation/rotation.css';
 /* header */
 @import '/blocks/header/header.css';
 @import '/blocks/header/__logo/header__logo.css';
@@ -36,7 +37,6 @@
 /* oakley */
 /* feynman */
 @import '/blocks/feynman/feynman.css';
-@import '/blocks/feynman/__container/feynman__container.css';
 @import '/blocks/feynman/__image/feynman__image.css';
 @import '/blocks/feynman/__text/feynman__text.css';
 @import '/blocks/feynman/__title/feynman__title.css';
@@ -59,12 +59,13 @@
 /* khan */
 /* kaufman */
 @import '/blocks/kaufman/kaufman.css';
+@import '/blocks/kaufman/__title/kaufman__title.css';
+@import '/blocks/kaufman/__triangle/kaufman__triangle.css';
 @import '/blocks/kaufman/__info-block/kaufman__info-block.css';
 @import '/blocks/kaufman/__info-block/__info/info-block__info.css';
 /* kaufman */
 /* resources */
 @import '/blocks/resources/resources.css';
-@import '/blocks/resources/__container/resources__container.css';
 @import '/blocks/resources/__container/resources__container.css';
 @import '/blocks/resources/__row/resources__row.css';
 @import '/blocks/resources/__title/resources__title.css';
@@ -77,7 +78,7 @@
 @import '/blocks/footer/__nav/footer__nav.css';
 @import '/blocks/footer/__nav/__column/nav__column.css';
 @import '/blocks/footer/__social/footer__social.css';
-/* kaufman */
+/* footer */
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */

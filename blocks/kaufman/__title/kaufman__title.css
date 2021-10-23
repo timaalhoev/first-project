@@ -1,9 +1,11 @@
 .kaufman__title {
-    text-align: center;
-  }
-  
-  .kaufman__title p {
-    margin-top: 20px;
-    font-size: 24px;
-    line-height: 34px;
-  }
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.kaufman__title p {
+  margin-top: 20px;
+  font-size: 24px;
+  line-height: 34px;
+}

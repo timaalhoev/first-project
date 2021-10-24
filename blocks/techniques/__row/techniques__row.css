@@ -1,7 +1,0 @@
-.techniques__row {
-  display: flex;
-  justify-content: flex-start;
-  flex-wrap: wrap;
-  max-width: 920px;
-  margin: 60px auto 0;
-}

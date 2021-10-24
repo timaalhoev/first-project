@@ -1,0 +1,7 @@
+.two-columns {
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+    gap: 56px;
+}

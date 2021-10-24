@@ -1,0 +1,7 @@
+.digits__item {
+    position: relative;
+    width: 25%;
+    padding-right: 34px;
+    box-sizing: border-box;
+    padding-top: 60px;
+}

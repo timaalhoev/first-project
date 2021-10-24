@@ -1,7 +1,8 @@
-.feynman__title h2 {
+.feynman__title {
   position: relative;
   text-align: center;
   font-size: 120px;
   line-height: 138px;
+  font-weight: bold;
   z-index: 1;
 }

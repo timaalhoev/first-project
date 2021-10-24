@@ -1,83 +1,92 @@
 @import '/blocks/rotation/rotation.css';
+
+@import '/blocks/two_columns/two-columns.css';
+
+@import '/blocks/section-title/section-title.css';
+
+@import '/blocks/section-subtitle/section-subtitle.css';
+
+@import '/blocks/catalog/catalog.css';
+@import '/blocks/catalog/__item/catalog__item.css';
 /* header */
 @import '/blocks/header/header.css';
-@import '/blocks/header/__logo/header__logo.css';
+@import '/blocks/header/__title/header__title.css';
 @import '/blocks/header/__banner/header__banner.css';
-@import '/blocks/header/__banner/__description/banner__description.css';
-@import '/blocks/header/__banner/__image/banner__image.css';
-@import '/blocks/header/__banner/__text/banner__text.css';
+@import '/blocks/header/__description/header__description.css';
+@import '/blocks/header/__image/header__image.css';
 @import '/blocks/header/__square-pic/header__square-pic.css';
 /* header */
 /* description*/
-@import '/blocks/techniques/techniques.css';
-@import '/blocks/description/__container/description__container.css';
-@import '/blocks/description/__education-problems/description__education-problems.css';
+@import '/blocks/description/description.css';
+@import '/blocks/description/__paragraph/description__paragraph.css';
 @import '/blocks/description/__link/description__link.css';
 /* description */
 /* techniques */
 @import '/blocks/techniques/techniques.css';
-@import '/blocks/techniques/__row/techniques__row.css';
-@import '/blocks/techniques/__title/techniques__title.css';
-@import '/blocks/techniques/__info/techniques__info.css';
-@import '/blocks/techniques/__ed-block/techniques__ed-block.css';
-@import '/blocks/techniques/__ed-block/__image/ed-block__image.css';
-@import '/blocks/techniques/__ed-block/__info/ed-block__info.css';
+@import '/blocks/techniques/__catalog/techniques__catalog.css';
+@import '/blocks/techniques/__item/techniques__item.css';
+@import '/blocks/techniques/__item-title/techniques__item-title.css';
+@import '/blocks/techniques/__item-info/techniques__item-info.css';
+@import '/blocks/techniques/__item-image/techniques__item-image.css';
 /* techniques */
 /* video */
 @import '/blocks/video/video.css';
-@import '/blocks/video/__container/video__container.css';
 @import '/blocks/video/__title/video__title.css';
-@import '/blocks/video/__youtube/video__youtube.css';
+@import '/blocks/video/__catalog/video__catalog.css';
+@import '/blocks/video/__item/video__item.css';
 /* video */
 /* oakley */
 @import '/blocks/oakley/oakley.css';
-@import '/blocks/oakley/__container/oakley__container.css';
 @import '/blocks/oakley/__description/oakley__description.css';
 @import '/blocks/oakley/__link/oakley__link.css';
 /* oakley */
 /* feynman */
 @import '/blocks/feynman/feynman.css';
-@import '/blocks/feynman/__image/feynman__image.css';
-@import '/blocks/feynman/__text/feynman__text.css';
 @import '/blocks/feynman/__title/feynman__title.css';
+@import '/blocks/feynman/__subtitle/feynman__subtitle.css';
+@import '/blocks/feynman/__image/feynman__image.css';
+@import '/blocks/feynman/__link/feynman__link.css';
 /* feynman */
 /* digits */
 @import '/blocks/digits/digits.css';
+@import '/blocks/digits/__catalog/digits__catalog.css';
 @import '/blocks/digits/__item/digits__item.css';
-@import '/blocks/digits/__numders/digits__numbers.css';
 @import '/blocks/digits/__title/digits__title.css';
+@import '/blocks/digits/__paragraph/digits__paragraph.css';
 /* digits */
 /* khan */
 @import '/blocks/khan/khan.css';
+@import '/blocks/khan/__container/khan__container.css';
 @import '/blocks/khan/__author/khan__author.css';
-@import '/blocks/khan/__author/__name/author__name.css';
-@import '/blocks/khan/__author/__pro/author__pro.css';
-@import '/blocks/khan/__block/khan__block.css';
-@import '/blocks/khan/__book/khan__book.css';
-@import '/blocks/khan/__info/khan__info.css';
-@import '/blocks/khan/__paragraph/khan__paragraph.css';
+@import '/blocks/khan/__title/khan__title.css';
+@import '/blocks/khan/__quote/khan__quote.css';
+@import '/blocks/khan/__quote-author/khan__quote-author.css';
+@import '/blocks/khan/__quote-author-subline/khan__quote-author-subline.css';
+@import '/blocks/khan/__book-container/khan__book-container.css';
+@import '/blocks/khan/__book-pic/khan__book-pic.css';
+@import '/blocks/khan/__buy-link/khan__buy-link.css';
+
 /* khan */
 /* kaufman */
 @import '/blocks/kaufman/kaufman.css';
-@import '/blocks/kaufman/__title/kaufman__title.css';
 @import '/blocks/kaufman/__triangle/kaufman__triangle.css';
-@import '/blocks/kaufman/__info-block/kaufman__info-block.css';
-@import '/blocks/kaufman/__info-block/__info/info-block__info.css';
+@import '/blocks/kaufman/__catalog/kaufman__catalog.css';
+@import '/blocks/kaufman/__item/kaufman__item.css';
+@import '/blocks/kaufman/__title/kaufman__title.css';
+@import '/blocks/kaufman/__paragraph/kaufman__paragraph.css';
 /* kaufman */
 /* resources */
 @import '/blocks/resources/resources.css';
-@import '/blocks/resources/__container/resources__container.css';
 @import '/blocks/resources/__row/resources__row.css';
-@import '/blocks/resources/__title/resources__title.css';
 /* resources */
 /* footer */
 @import '/blocks/footer/footer.css';
 @import '/blocks/footer/__container/footer__container.css';
-@import '/blocks/footer/__icon/footer__icon.css';
 @import '/blocks/footer/__logo/footer__logo.css';
+@import '/blocks/footer/__link/footer__link.css';
 @import '/blocks/footer/__nav/footer__nav.css';
-@import '/blocks/footer/__nav/__column/nav__column.css';
-@import '/blocks/footer/__social/footer__social.css';
+@import '/blocks/footer/__nav-title/footer__nav-title.css';
+@import '/blocks/footer/__nav-item/footer__nav-item.css';
 /* footer */
 .page {
   min-width: 1100px;
@@ -91,6 +100,9 @@
 }
 
 a {
+  color: #2F80ED;
+  font-size: 18px;
+  line-height: 20px;
   text-decoration: none;
   transition: opacity .2s ease-in;
 }
@@ -109,10 +121,15 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0;
 }
 
+ul, ol {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 h1 {
   font-size: 102px;
   color: black;
-  margin-top: 100px;
 }
 
 /* и элемента с модификатором вида ключ-значение */

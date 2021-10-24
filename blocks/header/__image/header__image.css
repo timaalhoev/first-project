@@ -1,0 +1,11 @@
+.header__image {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  right: 0;
+}
+
+.header__image img {
+  position: relative;
+  z-index: 2;
+}

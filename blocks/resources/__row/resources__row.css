@@ -1,6 +1,5 @@
-
-  .resources__row {
-    display: flex;
-    justify-content: space-around;
-    margin-top: 84px;
-  }
+.resources__row {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 84px;
+}

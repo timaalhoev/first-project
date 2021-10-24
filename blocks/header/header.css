@@ -2,17 +2,10 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
+  padding: 30px 64px 0;
   background-color: #F2F2F2;
   position: relative;
   overflow: hidden;
+  box-sizing: border-box;
   /* выше установили ограничения для секции */
 }
-
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
-
-
-
-
-
-
-

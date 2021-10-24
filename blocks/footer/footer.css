@@ -1,15 +1,6 @@
-
 .footer {
-    background: #1D1D1D;
-    color: white;
-    padding-top: 60px;
-    padding-bottom: 60px;
-  }
-  
-  .footer h4 {
-    margin: 0;
-    margin-bottom: 20px;
-  }
-  
-  
-  
+  background: #1D1D1D;
+  color: white;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}

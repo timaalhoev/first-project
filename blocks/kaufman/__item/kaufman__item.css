@@ -1,0 +1,8 @@
+.kaufman__item {
+    position: relative;
+    width: 20%;
+    padding-right: 34px;
+    padding-top: 80px;
+    box-sizing: border-box;
+    z-index: 1;
+}
